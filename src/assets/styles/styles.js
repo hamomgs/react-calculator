@@ -15,6 +15,7 @@ export const Container = styled.div`
   inset -5px -5px 15px rgba(0,0,0,0.5),
   inset 5px 5px 15px rgba(0,0,0,0.5);
   transform: scale(0.9);
+  transition: 0.2s ease-in-out;
   background-color: ${(e) => e.color || '#333'};
 
   @media (max-width:900px) {
